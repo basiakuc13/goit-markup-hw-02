@@ -74,6 +74,9 @@ body {
   line-height: 1.5;
   font-style: 'Roboto', sans-serif;
 }
+.button {
+  cursor: pointer;
+}
 a:hover {
   color: gray;
 }
