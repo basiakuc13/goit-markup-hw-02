@@ -1,8 +1,12 @@
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: white;
+  padding: 1rem;
 }
-.web-color {
+.contacts {
+  color: #434455;
+}
+.logo-web-color {
   color: #4d5ae5;
   background-color: white;
   font-weight: 800;
@@ -10,7 +14,7 @@ body {
   line-height: 1.313;
   font-style: 'Roboto', sans-serif;
 }
-.studio {
+.logo-studio-color {
   color: #2e2f42;
   background-color: white;
   font-weight: 800;
@@ -20,11 +24,15 @@ body {
 }
 .menu-button {
   font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
   font-size: 1;
-  width: 1.313;
-  height: 1.5;
   color: #4d5ae5;
+  box-shadow: rgba(0, 0, 0, 0.15);
   background-color: #e7e9fc;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
 }
 .menu {
   color: #2e2f42;
@@ -51,14 +59,14 @@ body {
   width: 1.875;
   height: 1.5;
 }
-.logo-footer-web {
+#logo-web-footer {
   color: #4d5ae5;
   background-color: #2e2f42;
   font-weight: 800;
   font-size: 1.125;
   line-height: 1.313;
 }
-.logo-footer-studio {
+#logo-studio-footer {
   color: #f4f4fd;
   background-color: #2e2f42;
   font-weight: 800;
@@ -66,7 +74,7 @@ body {
   line-height: 1.313;
   font-style: 'Roboto', sans-serif;
 }
-.logo-text {
+#footer-text {
   color: #f4f4fd;
   background-color: #2e2f42;
   font-weight: 400;
@@ -74,12 +82,66 @@ body {
   line-height: 1.5;
   font-style: 'Roboto', sans-serif;
 }
-.button {
-  cursor: pointer;
-}
 a:hover {
   color: gray;
 }
 .button:hover {
   color: black;
+}
+.button-index.html {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  color: var(--color-text-in-web-and-btn);
+  cursor: pointer;
+}
+#footer {
+  background-color: #2e2f42;
+  width: 1440px;
+  height: 312px;
+  top: 1764px;
+}
+#title {
+  font-style: Roboto;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: 2%;
+  align-items: center;
+}
+#button-order-service {
+  font-style: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 4%;
+  color: white;
+  display: flex;
+  text-align: center;
+}
+.button-properties {
+  width: 169px;
+  height: 56px;
+  top: 428px;
+  left: 636px;
+  border-radius: 4px;
+  padding: 16px, 32px, 16px, 32px;
+  background-color: #4d5ae5;
+}
+.middle-title {
+  width: 1440px;
+  height: 600px;
+  top: 72px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+#section {
+  color: white;
+  background-color: #2e2f42;
+  font-size: 56px;
+  font-style: Roboto;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 2%;
 }
