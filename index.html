@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<lang="en">
+<html lang="en">
   <head>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
     <meta charset="utf-8" />
     <title>goit-markup-hm-01</title>
-    <link rel="stylesheet" href="styles.css" type="text/css" />
+      <link rel="stylesheet" href="styles.css" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,166 +14,191 @@
       href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@100;400&display=swap"
       rel="stylesheet"/>
   </head>
+
   <body>
     <header>
       <nav>
-        <h1 id="menu">
-          <div id="logo">
-          <a href="./index.html">
-            <span class="logo-web-color">Web</span><span class="logo-studio-color">Studio</span>
-          </a>
-          </div>
-        </h1>
-        <h2>
-          <ul>
-          <li><a href="https://www.google.com" class="menu">Studio</a></li>
-          <li><a href="./portfolio.html" class="menu">Portfolio</a></li>
-          <li><a href="https://www.google.com" class="menu">Contacts</a></li>
-          </ul>
-          </h2>
-      </nav>
-      <h3>
-      <ul>
-        <li>
-          <a href="mailto:info@devstudio.com" class="contacts">info@devstudio.com</a>
-        </li>
-        <li>
-          <a href="tel:+11(000)111-11-11" class="contacts">+11(000)111-11-11</a>
-        </li>
-      </ul>
-      </h3>
-    </header>
-    <h3 class="slogan-and-button">
-      <div id="slogan">Effective Solutions <br> for Your Business
-      </div>
-    </h3>
-    <h4>
- <div id="button-properties">
-      <button  class="button-properties" id="button-order-service" type="button">Order Service</button>
-    </div>
-    </h4>
-      <h5 id="content">
+       <section class="conteiner-1">
+        <div class="logo-top">
+        <a href="/index.html">
+          <span class="logo-web">WEB</span><span class="logo-studio">STUDIO</span>
+        </a>
+        </div>
+        <menu>
+        <div class="menu-links">
         <ul>
-          <li class="phrase">
-            Strategy
-            <p class="phrase-describtion">
-              Our goal is to identify the business problem to walk away with the
+          <li>
+           <a href="/index.html" class="menu-link">Studio</a>
+          </li>
+          <li>
+            <a href="/portfolio.html" class="menu-link">Portfolio</a>
+          </li>
+          <li>
+            <a href="https://www.google.com" class="menu-link">Contacts</a>
+          </li>
+          </ul>     
+        </div>
+        </menu>
+      </nav>
+        <ul class="contacts-position">
+          <li>
+            <a href="mailto:info@devstudio.com" class="contacts"
+              >info@devstudio.com</a>
+          </li>
+          <li>
+            <a href="tel:+11(000)111-11-11" class="contacts"
+              >+11(000)111-11-11</a>
+          </li>
+        </ul>
+      </section>
+    </header>
+    <main>
+      <section class="conteiner-2">
+        <h1>
+          <p class="page-title">
+          Effective Solutions<br>
+          for Your Business
+          </p>
+        </h1>
+          <button class="order-service-btn-text" type="button">Order Service
+          </button>
+      </section>
+      <section class="cointeiner-3">
+        <ul class="feature">
+          <li>
+            <div class="sub-title">Strategy</div>
+            <p class="description">
+              Our goal is to identify the business<br>
+              problem to walk away with the<br>
               perfect and creative solution.
             </p>
           </li>
-          <li class="phrase">
-            Punctuality
-            <p class="phrase-describtion">
-              Bring the key message to the brand's audience for the best price
+          <li>
+            <div class="sub-title">Punctuality</div>
+            <p class="description">
+              Bring the key message to the<br>
+              brand's audience for the best price<br>
               within the shortest possible time.
             </p>
           </li>
-          <li class="phrase">
-            Diligence
-            <p class="phrase-describtion">
-              Research and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
+          <li>
+            <div class="sub-title">Diligence</div>
+            <p class="description">
+              Research and confirm brands that<br>
+              present the strongest digital growth<br>
+              opportunities and minimize risk.
             </p>
           </li>
-          <li class="phrase">
-            Technologies
-            <p class="phrase-describtion">
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
+          <li>
+            <div class="sub-title">Technologies</div>
+            <p class="description">
+              Design practice focused on digital<br>
+              experiences. We bring forth a deep<br>
+              passion for problem-solving.
             </p>
           </li>
         </ul>
-        </h5>
-      <h6 class="subheading">What Are We Doing</h6>
-      <h7>
-      <ul>
-        <li>
-          <img
-            src="images/1computerscreen.jpg"
-            alt="imac screen with statistics on it"
-            width="360"
-            height="300"/>
-        </li>
-        <li>
-          <img
-            src="images/3phonescreen.jpg"
-            alt="4 iphone screens with communicator open on each"
-            width="360"
-            height="300"/>
-        </li>
-        <li>
-          <img
-            src="images/4phonescreen.jpg"
-            alt="phone screen with open article on it"
-            width="360"
-            height="300"/>
-        </li>
-      </ul>
-      </h7>
-      <h8 class="subheading">Our Team</h8>
-      <h9>
-      <ul>
-        <li>
-          <figure>
+        <h2>
+          <div class="title-what-are-we-doing">
+            What Are We Doing
+          </div>
+        </h2>
+        <ul class="images-what-are-we-doing-position">
+          <li>
             <img
-              src="images/man1.jpg"
-              alt="smiling man with black hair and black beard wearing blue shirt"
-              width="264"
-              height="260"/>
-            <figcaption><b>Mark Guerrero</b> Product Designer</figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure>
-            <img
-              src="images/man2.jpg"
-              alt="smiling man with dark brown hair and beard wearing blue shirt looking to the side"
-              width="264"
-              height="260"
+              class="images-what-are-we-doing"
+              src="images/1computerscreen.jpg"
+              alt="imac screen with statistics on it"
+              width="360"
+              height="300"
             />
-            <figcaption>
-              <b>Tom Ford</b>
-              <p>Frontend Developer</p>
-            </figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure>
+          </li>
+          <li>
             <img
-              src="images/woman3.jpg"
-              alt="smiling woman with long black hair wearing pink sweater"
-              width="264"
-              height="260"/>
-            <figcaption>
-              <b>Camila Garcia</b>
-              <p>Marketing</p>
-            </figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure>
+              class="images-what-are-we-doing"
+              src="images/3phonescreen.jpg"
+              alt="4 iphone screens with communicator open on each"
+            />
+          </li>
+          <li>
             <img
-              src="images/man4.jpg"
-              alt="smiling man with brown hair and brown beard wearing grey sweater"
-              width="264"
-              height="260"/>
-            <figcaption>
-              <b>Daniel Wilson</b>
-              <p>UI Designer</p>
-            </figcaption>
-          </figure>
-        </li>
-      </ul>
-      </h9>
-    <footer>
-      <div id="footer">
-        <a href="https://www.google.com"></a>
-          <span id="logo-web-footer">WEB</span><span id="logo-studio-footer">STUDIO</span>
-        <p id="footer-text">
-          Increase the flow of customers and <br> sales for your business with
-          digital <br> marketing &amp; growth solutions.
+              class="images-what-are-we-doing"
+              src="images/4phonescreen.jpg"
+              alt="phone screen with open article on it"/>
+          </li>
+        </ul>
+      </section>
+      <section class="conteiner-4">
+        <h3>
+          <div class="title-our-team">
+            Our Team
+          </div>
+        </h3>
+        <ul>
+          <li>
+            <figure class="team-card">
+              <img
+                class="team-img"
+                src="images/man1.jpg"
+                alt="smiling man with black hair and black beard wearing blue shirt"/>
+              <figcaption class="team-describtion-box">
+                <span class="team-names">Mark Guerrero</span>
+                <span class="job-title">Product Designer</span>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="team-card">
+              <img
+                class="team-img"
+                src="images/man2.jpg"
+                alt="smiling man with dark brown hair and beard wearing blue shirt looking to the side"/>
+              <figcaption class="team-describtion-box">
+                <span class="team-names">Tom Ford</span>
+                <span class="job-title">Frontend Developer</span>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="team-card">
+              <img
+                class="team-img"
+                src="images/woman3.jpg"
+                alt="smiling woman with long black hair wearing pink sweater"
+              />
+              <figcaption class="team-describtion-box">
+                <span class="team-names">Camila Garcia</span>
+                <span class="job-title">Marketing</span>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="team-card">
+              <img
+                class="team-img"
+                src="images/man4.jpg"
+                alt="smiling man with brown hair and brown beard wearing grey sweater"/>
+              <figcaption class="team-describtion-box">
+                <span class="team-names">Daniel Wilson</span>
+                <span class="job-title">UI Designer</span>
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
+
+      </section>
+    </main>
+    <footer class="conteiner-5">
+        <a href="https://www.google.com">
+          <div class="logo-footer">
+          <span class="footer-logo-web">WEB</span><span class="footer-logo-studio">STUDIO</span></div>
+      </a>
+        <p class="footer-text">
+          Increase the flow of customers and sales for your business with
+          digital marketing &amp; growth solutions.
         </p>
       </div>
     </footer>
   </body>
 </html>
+
